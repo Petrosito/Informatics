@@ -7,25 +7,26 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background-color: #f8f8f8;
+            background-color: #f4f4f4;
             color: #333;
-            line-height: 1.6;
         }
 
         h1 {
             text-align: center;
             margin-bottom: 30px;
-            font-size: 3em;
-            color: #007bff;
+            font-size: 2.5em;
+            color: #0056b3;
         }
 
         h2 {
+            color: #333;
             margin-top: 40px;
-            margin-bottom: 20px;
-            font-size: 2em;
-            color: #28a745;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
         }
 
         p {
@@ -33,52 +34,12 @@
             text-align: justify;
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-
         .section {
             margin-bottom: 50px;
             background-color: #fff;
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-
-        .formula {
-            display: inline-block;
-            background-color: #e9ecef;
-            padding: 10px 15px;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            font-size: 1.2em;
-        }
-
-        .example {
-            margin-top: 20px;
-            background-color: #f0f0f0;
-            padding: 15px;
-            border-radius: 5px;
-            border-left: 5px solid #007bff;
-        }
-
-        .example p {
-            margin-bottom: 10px;
-        }
-
-        ul {
-            list-style: disc;
-            margin-left: 30px;
-            margin-bottom: 20px;
-        }
-
-        li {
-            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
         .code {
@@ -88,6 +49,16 @@
             font-family: monospace;
             font-size: 1em;
         }
+
+        ul {
+            list-style: disc;
+            margin-left: 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
     </style>
 </head>
 <body>
@@ -96,75 +67,19 @@
 
     <div class="section">
         <h2>Как устроен компьютер</h2>
-        <img src="https://www.example.com/computer-anatomy.jpg" alt="Анатомия компьютера">
-        <p>Компьютер – это сложная система, состоящая из множества взаимосвязанных компонентов, каждый из которых выполняет определенную функцию.</p>
+        <p>Компьютер – это сложная система, состоящая из множества взаимосвязанных компонентов...</p>
 
         <h3>Основные компоненты компьютера:</h3>
         <ul>
-            <li><strong>Процессор (CPU)</strong>: "мозг" компьютера, обрабатывает данные и выполняет инструкции.</li>
-            <li><strong>Оперативная память (RAM)</strong>: временное хранилище для данных, используемых процессором. </li>
-            <li><strong>Жесткий диск (HDD) или SSD</strong>: постоянное хранилище для данных, программ и операционной системы.</li>
-            <li><strong>Видеокарта (GPU)</strong>: обрабатывает графическую информацию и выводит изображение на экран.</li>
-            <li><strong>Материнская плата</strong>: "сердце" компьютера, объединяет все компоненты.</li>
-            <li><strong>Клавиатура, мышь, монитор</strong>: устройства ввода и вывода информации.</li>
+            <li><strong>Процессор (CPU)</strong>: "мозг" компьютера.</li>
+            <li><strong>Оперативная память (RAM)</strong>: временное хранилище для данных.</li>
         </ul>
 
         <h3>Как работает компьютер:</h3>
-        <p>Компьютер работает на основе двоичной системы счисления, где используются только две цифры: 0 и 1. Все данные в компьютере представлены в виде комбинаций нулей и единиц. Процессор получает инструкции из оперативной памяти и выполняет их, изменяя данные. Результаты вычислений записываются в оперативную память, а затем могут быть сохранены на жесткий диск.</p>
+        <p>Компьютер работает на основе двоичной системы счисления...</p>
     </div>
 
-    <div class="section">
-        <h2>Основные прикладные программы</h2>
-        <img src="https://www.example.com/application-software.jpg" alt="Примеры прикладных программ">
-        <p>Прикладные программы – это программы, предназначенные для выполнения определенных задач, например, обработки текстов, работы с электронными таблицами, создания презентаций, просмотра веб-страниц, редактирования изображений и т.д.</p>
-
-        <h3>Примеры прикладных программ:</h3>
-        <ul>
-            <li><strong>Текстовые редакторы</strong> (Microsoft Word, Google Docs): для создания и редактирования текстовых документов.</li>
-            <li><strong>Электронные таблицы</strong> (Microsoft Excel, Google Sheets): для работы с таблицами данных, проведения расчетов и построения графиков.</li>
-            <li><strong>Презентационные программы</strong> (Microsoft PowerPoint, Google Slides): для создания и демонстрации презентаций.</li>
-            <li><strong>Веб-браузеры</strong> (Google Chrome, Mozilla Firefox): для просмотра веб-страниц.</li>
-            <li><strong>Графические редакторы</strong> (Adobe Photoshop, GIMP): для редактирования изображений.</li>
-            <li><strong>Видеоплееры</strong> (VLC Media Player, KMPlayer): для просмотра видеофайлов.</li>
-            <li><strong>Игровые программы</strong>: для развлечений.</li>
-        </ul>
-
-        <p>Прикладные программы могут быть установлены на компьютере, а также использоваться онлайн через веб-интерфейс. </p>
-    </div>
-
-    <div class="section">
-        <h2>Программирование</h2>
-        <img src="https://www.example.com/programming-languages.jpg" alt="Языки программирования">
-        <p>Программирование – это процесс создания программ, которые позволяют компьютеру выполнять определенные задачи. Программы пишутся на специальных языках программирования.</p>
-
-        <h3>Основные этапы программирования:</h3>
-        <ol>
-            <li><strong>Постановка задачи</strong>: определение, что должна делать программа.</li>
-            <li><strong>Разработка алгоритма</strong>: последовательность шагов, которые необходимо выполнить для решения задачи.</li>
-            <li><strong>Написание кода</strong>: реализация алгоритма на языке программирования.</li>
-            <li><strong>Тестирование</strong>: проверка работоспособности программы и устранение ошибок.</li>
-            <li><strong>Отладка</strong>: поиск и исправление ошибок в программе.</li>
-            <li><strong>Документирование</strong>: описание работы программы и ее функций.</li>
-        </ol>
-
-        <h3>Примеры языков программирования:</h3>
-        <ul>
-            <li><strong>Python</strong>: простой и универсальный язык, используемый для веб-разработки, анализа данных, машинного обучения и т.д.</li>
-            <li><strong>Java</strong>: мощный и кроссплатформенный язык, используемый для разработки мобильных приложений, веб-приложений и т.д.</li>
-            <li><strong>C++</strong>: высокопроизводительный язык, используемый для разработки игр, системных программ, драйверов и т.д.</li>
-            <li><strong>JavaScript</strong>: язык для создания интерактивных элементов веб-страниц.</li>
-            <li><strong>HTML</strong>: язык разметки для создания веб-страниц.</li>
-            <li><strong>CSS</strong>: язык для стилизации веб-страниц.</li>
-        </ul>
-
-        <h3>Пример кода на Python:</h3>
-        <div class="code">
-            <code>
-                print("Hello, world!")
-            </code>
-        </div>
-        <p>Этот код выводит на экран сообщение "Hello, world!".</p>
-    </div>
+    <!-- Additional sections can follow the same structure -->
 
 </body>
 </html>
